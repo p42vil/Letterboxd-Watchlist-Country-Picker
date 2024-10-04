@@ -1,0 +1,27 @@
+{
+    "name": "Letterboxd Watchlist Country Selection",
+    "description": "Adds a country menu to the Letterboxd watchlist.",
+    "version": "1.0",
+    "permissions": [
+      "activeTab"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["https://letterboxd.com/*/watchlist/*"],
+        "js": ["add-countryselection.js"]
+      }
+    ],
+    "web_accessible_resources": [
+      {
+        "resources": ["/countries.json"],
+        "matches": ["<all_urls>"]
+      }
+    ],
+    "icons": {
+      "16": "icon16.png",
+      "32": "icon32.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    },
+    "manifest_version": 3
+  }
