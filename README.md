@@ -2,7 +2,7 @@
 
 <img src="icon128.png">
 
-Adds a country menu to the Letterboxd watchlist with all the available countries.
+A simple Google Chrome extension that adds a country menu to the Letterboxd watchlist with all the available countries.
 
 When the countries were last checked: 1 oct. 2024
 
